@@ -16,7 +16,7 @@ with st.sidebar:
     st.write("###")
     st.write("***Final Project - Dec 2023***")
     st.write("**Author:** <Your Name>")
-    st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
+    st.write("**Instructor:** [Enric Domingo](https://github.com/irinamik)")
 
 
 # ----- Top title -----
