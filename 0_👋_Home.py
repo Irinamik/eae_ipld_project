@@ -63,7 +63,7 @@ st.write("""
 
 - 📫 How to reach me: irinamik1@hotmail.com
 
-- 🏠 Barcelona
+- 🏠 Estonia
 """)
 
 # Feel free to add other points like your Linkedin, Github, Social Media, etc.
