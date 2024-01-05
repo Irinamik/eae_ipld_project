@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="Fallou Fall Portfolio",
     page_icon="📊",
 )
 
@@ -16,15 +16,15 @@ with st.sidebar:
     st.write("###")
     st.write("***Final Project - Dec 2023***")
     st.write("**Author:** <Your Name>")
-    st.write("**Instructor:** [Enric Domingo](https://github.com/irinamik)")
+    st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
 # ----- Top title -----
-st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Irina</h1></div>""", unsafe_allow_html=True)  # TODO: Add your name
+st.write(f"""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Fallou Fall</h1></div>""", unsafe_allow_html=True)
 
 
 # ----- Profile image file -----
-profile_image_file_path = "IM.jpg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+profile_image_file_path = "profile_image.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
 with open(profile_image_file_path, "rb") as img_file:
     img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -39,7 +39,7 @@ st.write(f"""
 
 
 # ----- Personal title or short description -----
-current_role = "Student"   # TODO: Change this
+current_role = "Current Role and/or Studies or Description"   # TODO: Change this
 
 st.write(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""", unsafe_allow_html=True)
 
@@ -51,19 +51,19 @@ st.subheader("About Me")
 
 # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
 st.write("""
-- 🧑‍💻 I am a Student
+- 🧑‍💻 I am a <Current Role and/or Studies> 
 
-- 🛩️ prev: Worked as IT manager
+- 🛩️ prev: <Previous Experience, Background or Studies>
 
-- ❤️ Fast drive
+- ❤️ <Your Passion and/or Interests>
 
-- 🤖 Don't have yet
+- 🤖 <Your Personal Projects>
 
-- 🏂 Padel
+- 🏂 <Your Hobbies>
 
-- 📫 How to reach me: irinamik1@hotmail.com
+- 📫 How to reach me: <Your Email>
 
-- 🏠 Estonia
+- 🏠 Barcelona
 """)
 
 # Feel free to add other points like your Linkedin, Github, Social Media, etc.
